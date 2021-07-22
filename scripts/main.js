@@ -340,14 +340,14 @@ const alternateRomanizations = {
   'wen zhe': ['shirley'],
   'liu yuhan': ['sweety'],
   'poon wing chi': ['gigi'],
-  'xu ruowei': ['helen']
-  'joung min': ['jeong min']
-  'lee chaeyun': ['lee chaeyoon']
-  'lee yunji': ['lee yoonji']
-  'kim suyeon': ['kim sooyeon']
-  'seo youngeun': ['suh youngeun']
-  'choi yujin': ['choi yoojin']
-  'lee sunwoo': ['lee sunoo']
+  'xu ruowei': ['helen'],
+  'joung min': ['jeong min'],
+  'lee chaeyun': ['lee chaeyoon'],
+  'lee yunji': ['lee yoonji'],
+  'kim suyeon': ['kim sooyeon'],
+  'seo youngeun': ['suh youngeun'],
+  'choi yujin': ['choi yoojin'],
+  'lee sunwoo': ['lee sunoo'],
   'lee yeongyung': ['lee yungyung', 'lee yeongyeong']
 };
 
