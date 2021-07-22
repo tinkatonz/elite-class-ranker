@@ -319,28 +319,36 @@ function swapTrainees(index1, index2) {
 // <original> is the original name as appearing on csv
 // all of it should be lower case
 const alternateRomanizations = {
-  'heo yunjin': ['heo yoonjin', 'huh yoonjin', 'huh yunjin'],
-  'go yujin': ['ko yoojin', 'ko yujin', 'go yoojin'],
-  'kim yubin': ['kim yoobin'],
-  'lee yoojun': ['lee yujeong'],
-  'shin suhyun': ['shin soohyun', 'shin soohyeon', 'shin suhyeon'],
-  'jo ahyoung': ['cho ahyoung', 'cho ahyeong'],
-  'yu minyoung': ['yoo minyeong', 'yu minyeong', 'yoo minyoung'],
-  'park haeyoon': ['park haeyun'],
-  'park jinhee': ['jinny park'],
-  'jo sarang': ['cho sarang'],
-  'park chanju': ['park chanjoo'],
-  'lee gaeun': ['lee kaeun'],
-  'na goeun': ['na koeun'],
-  'ahn yujin': ['ahn yoojin'],
-  'jo gahyun': ['cho gahyun', 'jo kahyun', 'cho kahyun', 'jo kahyeon', 'cho kahyeon'],
-  'jo yuri': ['cho yuri'],
-  'yoon haesol': ['yun haesol'],
-  'kim minju': ['kim minjoo'],
-  'lee seunghyun': ['lee seunghyeon'],
-  'jo yeongin': ['cho yeongin', 'cho youngin', 'jo youngin'],
-  'kim suyun': ['kim sooyoon'],
-  'kim sihyun': ['kim shihyun', 'kim sihyeon']
+  'suh jimin': ['seo jimin'],
+  'an jeongmin': ['an jungmin', 'ahn jeongmin', 'ahn jungmin'],
+  'lee rayeon': ['lee nayeon'],
+  'you dayeon': ['yoo dayeon'],
+  'huh jiwon': ['heo jiwon'],
+  'sim seungeun': ['shim seungeun'],
+  'xu ziyin': ['roada'],
+  'su ruiqi': ['sury'],
+  'leung cheukying': ['cherry', 'liang zhuoying', 'cherena', 'lyeong choging'],
+  'fu yaning': ['jessie'],
+  'guinn myah': ['son maya'],
+  'hsu nientzu': ['nancy'],
+  'kim doah': ['doa'],
+  'cui wenmeixiu': ['mei'],
+  'huang xingqiao': ['lorina'],
+  'wang yale': ['yealy'],
+  'chen xinwei': ['vivi'],
+  'zhang luofei': ['dolly'],
+  'wen zhe': ['shirley'],
+  'liu yuhan': ['sweety'],
+  'poon wing chi': ['gigi'],
+  'xu ruowei': ['helen']
+  'joung min': ['jeong min']
+  'lee chaeyun': ['lee chaeyoon']
+  'lee yunji': ['lee yoonji']
+  'kim suyeon': ['kim sooyeon']
+  'seo youngeun': ['suh youngeun']
+  'choi yujin': ['choi yoojin']
+  'lee sunwoo': ['lee sunoo']
+  'lee yeongyung': ['lee yungyung', 'lee yeongyeong']
 };
 
 // uses the current filter text to create a subset of trainees with matching info
