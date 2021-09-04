@@ -283,7 +283,7 @@ body {
 }
 #ranking__title {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Azonix', sans-serif;
 }
 .ranking__row {
   display: flex;
@@ -341,7 +341,7 @@ body {
   color: white;
 }
 .ranking__row-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Azonix', sans-serif;
   font-size: 11px;
   text-align: center;
 }
