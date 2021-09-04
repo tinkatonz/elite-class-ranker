@@ -30,7 +30,7 @@ p {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Azonix', sans-serif;
   display: inline-block;
   min-width: 100%;
   /*TODO: I had the weirdest bug where if i don't have this background white the top banner would disappear
@@ -118,7 +118,7 @@ body {
   border-radius: 3px;
   padding: 4px 6px 4px 6px;
   background-color: var(--a-rank);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Azonix', sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: white;
@@ -371,7 +371,7 @@ body {
 
 .ranking__entry .company {
   color: var(--ranking-affil-gray);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Azonix', sans-serif;
   font-weight: 600;
   font-size: 9px;
   letter-spacing: 0.2px;
