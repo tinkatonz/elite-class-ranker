@@ -225,20 +225,11 @@ body {
   background-origin: content-box;
 }
 /* Different entry borders */
-.a-rank-border {
-  border: 5px solid var(--a-rank);
+.k-rank-border {
+  border: 5px solid var(--k-rank);
 }
-.b-rank-border {
-  border: 5px solid var(--b-rank);
-}
-.c-rank-border {
-  border: 5px solid var(--c-rank);
-}
-.d-rank-border {
-  border: 5px solid var(--d-rank);
-}
-.f-rank-border {
-  border: 5px solid var(--f-rank);
+.g-rank-border {
+  border: 5px solid var(--g-rank);
 }
 .no-rank-border {
   border: none;
@@ -328,7 +319,7 @@ body {
   bottom: -5px;
   margin: auto;
   border-radius: 50%;
-  background-color: var(--a-rank);
+  background-color: var(--k-rank);
   box-sizing: border-box;
   padding: 2px;
   /* badge text options */
