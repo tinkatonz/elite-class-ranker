@@ -338,20 +338,11 @@ body {
 .bg-no {
   background-color: var(--no-rank);
 }
-.bg-a {
-  background-color: var(--a-rank);
+.bg-k {
+  background-color: var(--k-rank);
 }
-.bg-b {
-  background-color: var(--b-rank);
-}
-.bg-c {
-  background-color: var(--c-rank);
-}
-.bg-d {
-  background-color: var(--d-rank);
-}
-.bg-f {
-  background-color: var(--f-rank);
+.bg-g {
+  background-color: var(--g-rank);
 }
 .eliminated .ranking__entry-icon-badge {
   background-color: var(--no-rank);
