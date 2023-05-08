@@ -2,8 +2,8 @@
 @import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix);
 @font-face {font-family: "Azonix"; src: url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.eot"); src: url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.woff") format("woff"), url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.svg#Azonix") format("svg"); }
 :root {
-  --banner-bg-start: #fbe9f9;
-  --banner-bg-end: #e9d4fd;
+  --banner-bg-start: #A0C8D8;
+  --banner-bg-end: #F3C2D8;
   --produce-gray: #e4e4e4;
   --search-text-gray: #949494;
   --search-gray: #f2f2f2;
@@ -13,7 +13,7 @@
   --ranking-affil-gray: #989898;
   --save-box-gray: #b1b1b1;
 
-  --checked-blue: #052ae2CC;
+  --checked-white: #FFFFFFCC;
 
   /* ranking border colors */
   --k-rank: #67A6CE;
@@ -51,12 +51,12 @@ body {
 }
 #banner-title {
   font-family: 'Azonix', sans-serif;
-  color:#7f1774;
+  color:#000;
   font-size: 16px;
 }
 #banner-subtitle {
   font-family: 'Azonix', sans-serif;
-  color: #e364d5;
+  color: #707070;
   font-size: 12px;
 }
 
@@ -192,7 +192,7 @@ body {
   height: inherit;
   border-radius: 50%;
   /* blue background */
-  background-color: var(--checked-blue);
+  background-color: var(--checked-white);
   /* the padding insets the checkbox (makes it bigger/smaller) */
   padding: 10px;
   box-sizing: border-box;
@@ -241,7 +241,7 @@ body {
   border: 5px solid var(--no-rank);
 }
 .ranking__entry-icon-border.dragged-over { /* defines a border for when you drag over a trainee in ranking */
-  border: 5px solid var(--checked-blue);
+  border: 5px solid var(--checked-white);
 }
 
 .table__entry-text {
